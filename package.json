@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack serve --open --mode development"
-
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,7 @@
     "@babel/preset-env": "^7.28.5",
     "@babel/preset-react": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
+    "@types/express": "^4.17.25",
     "babel-loader": "^10.0.0",
     "clean-webpack-plugin": "^4.0.0",
     "favicons-webpack-plugin": "^6.0.1",
