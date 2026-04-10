@@ -5,7 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src', 'index.tsx'), // main TSX entry
+  //entry: path.resolve(__dirname, 'src', 'index.tsx'), // main TSX entry
+  entry: path.resolve(__dirname, 'src', 'client', 'main.tsx'),
   mode: 'development', // switch to 'production' for prod builds
   output: {
     filename: 'bundle.js',
