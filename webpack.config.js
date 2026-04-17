@@ -12,7 +12,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  watch: true, // optional: auto rebuild on changes
+  //watch: true, // optional: auto rebuild on changes
   module: {
     rules: [
       {
@@ -48,10 +48,10 @@ module.exports = {
       template: path.resolve(__dirname, 'index.ejs'), // source template
       filename: 'index.html', // output file in dist
     }),
-    new FaviconsWebpackPlugin({
-      logo: path.resolve(__dirname, 'src/client/theme/cropedLogo.png'),
-      inject: true,
-    }),
+    // new FaviconsWebpackPlugin({
+    //   logo: path.resolve(__dirname, 'src/client/theme/cropedLogo.png'),
+    //   inject: true,
+    // }),
   ],
   devtool: 'source-map', // optional: helps with debugging
 };
